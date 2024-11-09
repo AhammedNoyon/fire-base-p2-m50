@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom";
 import Footer from "../Footer";
 import Navbar from "../Navbar";
 
@@ -7,6 +8,7 @@ const Layout = () => {
       {/* Navbar */}
       <Navbar></Navbar>
       {/* dynamic */}
+      <Outlet></Outlet>
       {/* footer */}
       <Footer></Footer>
     </div>
